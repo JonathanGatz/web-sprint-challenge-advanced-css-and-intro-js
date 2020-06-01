@@ -147,8 +147,6 @@ button:hover{
         flex-direction: column;
     }
     .artists-container {
-        background-color: red;
-        text-align: center;
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -164,8 +162,10 @@ button:hover{
         align-self: center;
     }
     header nav {
-        width: auto;
-        padding: 10rem;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1rem;
     }
     .title-container div {
         width: 100%
@@ -182,9 +182,14 @@ button:hover{
         flex-direction: column;
         align-self: center;
     }
-    .artist {
-        background-color: white;
-        text-align: center;
+    .artist a {
+        font-size: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        font-weight: bold;
+        width: 320px;
         display: flex;
+        align-self: center;
+        justify-content: center;
     }
 }
