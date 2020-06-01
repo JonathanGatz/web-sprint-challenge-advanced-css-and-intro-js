@@ -139,9 +139,52 @@ button:hover{
     body {
         display: flex;
         flex-direction: column;
+        align-self: center;
     }
     img {
+        width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .artists-container {
+        background-color: red;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .artist img {
+        margin: auto;
+        border: auto;
+        width: 320px;
+        height: 320px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    header nav {
+        width: auto;
+        padding: 10rem;
+    }
+    .title-container div {
+        width: 100%
+    }
+
+    .artist div {
+        margin: auto;
+        margin-bottom: 80px;
+        border: auto;
+        width: 320px;
+        height: 320px;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .artist {
+        background-color: white;
+        text-align: center;
+        display: flex;
     }
 }
