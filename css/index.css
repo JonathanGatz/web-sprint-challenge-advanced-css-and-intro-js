@@ -153,6 +153,8 @@ button:hover{
     }
     .artist img {
         margin: auto;
+        margin-left: 3rem;
+        margin-top: 3rem;
         border: auto;
         width: 320px;
         height: 320px;
@@ -164,7 +166,7 @@ button:hover{
     header nav {
         flex-direction: row;
         justify-content: space-between;
-        width: 100%;
+        width: 60%;
         padding: 1rem;
     }
     .title-container div {
@@ -174,6 +176,7 @@ button:hover{
     .artist div {
         margin: auto;
         margin-bottom: 80px;
+        margin-left: 3rem;
         border: auto;
         width: 320px;
         height: 320px;
@@ -181,11 +184,13 @@ button:hover{
         display: flex;
         flex-direction: column;
         align-self: center;
+        
     }
     .artist a {
         font-size: 2rem;
         padding-top: 3rem;
         padding-bottom: 3rem;
+        margin-left: 2.5rem;
         font-weight: bold;
         width: 320px;
         display: flex;

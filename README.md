@@ -18,24 +18,36 @@ In this challenge, you will use a data set of artists to build an "influential a
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead.
 
+
+
+
+
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. How would you describe preprocessing to someone new to CSS? It allows you to use easier nesting tectniques to make your html doc seems much cleaner. I would say it helps tremendously with orginizing your code. 
+1. How would you describe preprocessing to someone new to CSS? It allows you to use easier nesting tectniques to make your html doc seems much cleaner. 
+
+## It makes CSS a ittle easier to work with. Whether it be nesting for a visually appealing css stylesheet, easy access @import 'ing or simply reusing a specific element by assigning css values to variable.  
 
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble? This actually follows the first question. At first, i absolutely hated the fact that proccessing offered many new docs. Now, i find it much easier to sort through my code. I can easily put all my nav code in my nave file and my html looks cleaner (imported from less), 
 
+## This two part questions gets a two part answer: As you know, I did not have the greatest start with Less... Specifically due to all of the pages i had to sort through... Though, after some time, I would say it helps greatly with orginizing my code. I feel like my understanding on compartmentalizing each file can be easy on everyone; just @import each file into less and you are set. It also, makes your css look much cleaner with Nesting.
+
 3. How would you explain the concept of a variable to someone new to programming?
 
-variables are like boxes. You can put whatever you like into a veriable. Plus, label the box so you know what it is. 
+## Variables are like boxes. You can put whatever you like into a veriable. Plus, label the box so you know what it is. 
 
 4. What is the purpose of using functions in code?
-I would say the man reason it to easily reuse a simple line of code. whether it be returning math proplems or performing tasks like if statements.  
+
+## I would say the main reason is to easily reuse a simple line of code. whether it be returning math proplems or performing tasks like if statements... or even reversing a string in an already formatted array. 
 
 
 5. What is JSON data?
-Json stores and tranmsits data  like value pairs and arrays. It's more of a network thing. 
+
+## Json Is used to store transmit information from your server to web applications; like value pairs and arrays. It's extremely light weight.  
+
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
